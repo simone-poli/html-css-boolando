@@ -53,12 +53,13 @@ header{
     }
     .nav-menubg{
         background-color: var(--header-bg-nav);
+        ;
     }
     .nav-menu{ 
         height: 70px;
         display: flex;
         justify-content: space-between;
-        align-items: center
+        align-items: center;
     }
     
     img{
@@ -80,9 +81,22 @@ main{
     .col {
         width: calc(100%/12*4);
         padding: 10px 10px;
+        cursor: ;
     }
 
     img{
         width: 100%;
+    }
+
+    .photo{
+        position: relative;
+    }
+
+    #principal{
+        position: absolute;
+    }
+
+    img#principal:hover{
+        display: none;
     }
 }
