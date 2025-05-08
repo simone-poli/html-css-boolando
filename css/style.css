@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-bg-nav: #ff6900;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+header{
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav-menubg{
+        background-color: var(--header-bg-nav);
+    }
+    .nav-menu{ 
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+    
+    img{
+        width: 100px;
+    };
+}
