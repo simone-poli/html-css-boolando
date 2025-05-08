@@ -6,6 +6,7 @@
 
 :root{
     --header-bg-nav: #ff6900;
+    --price-color: #ff0107;
 }
 
 .debug{
@@ -15,6 +16,18 @@
 .container{
     width: 70%;
     margin: 0 auto;
+}
+
+.text-sm{
+    font-size: small;
+}
+
+.price-c{
+    color:var(--price-color) ;
+}
+
+.price-cut{
+    text-decoration: line-through;
 }
 
 
@@ -40,6 +53,10 @@ header{
 }
 
 main{
+
+    h3{
+        text-transform: uppercase;
+    }
     .row{
         display: flex;
         flex-wrap: wrap;
