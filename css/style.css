@@ -54,7 +54,12 @@ header{
     }
     .nav-menubg{
         background-color: var(--header-bg-nav);
-        ;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index:1000 ;
+        width: 100%;
+
     }
     .nav-menu{ 
         height: 70px;
