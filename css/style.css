@@ -38,3 +38,20 @@ header{
         width: 100px;
     };
 }
+
+main{
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 55px;
+    }
+
+    .col {
+        width: calc(100%/12*4);
+        padding: 10px 10px;
+    }
+
+    img{
+        width: 100%;
+    }
+}
