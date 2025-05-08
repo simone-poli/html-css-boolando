@@ -8,6 +8,7 @@
     --header-bg-nav: #ff6900;
     --price-color: #ff0107;
     --sosten-color: #1d922e;
+    --footer-bg: #1a1a1a;
 }
 
 .container{
@@ -98,5 +99,31 @@ main{
 
     img#principal:hover{
         display: none;
+    }
+}
+
+footer{
+    .nav-footer-bg{
+        background-color:var(--footer-bg);
+    }
+    
+    .nav-footer{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        gap: 5px;
+
+        .info{
+            padding-top: 10px;
+        }
+
+    .icon{
+        background-color: white;
+        color: black;
+        font-size: small;
+        padding: 2px 2px;
+    }
     }
 }
