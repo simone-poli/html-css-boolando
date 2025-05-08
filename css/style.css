@@ -75,6 +75,17 @@ header{
 
 main{
 
+    .heart{
+        background-color: white;
+        padding: 5px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        z-index: 3;
+        width: 20px;
+        
+    }
+
     h3{
         text-transform: uppercase;
     }
@@ -87,7 +98,6 @@ main{
     .col {
         width: calc(100%/12*4);
         padding: 10px 10px;
-        cursor: ;
     }
 
     img{
