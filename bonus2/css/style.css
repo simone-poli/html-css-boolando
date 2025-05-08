@@ -71,8 +71,6 @@ header{
     img{
         width: 100px;
     };
-
-   
 }
 
 main{
@@ -116,13 +114,8 @@ main{
 
     img#principal:hover{
         display: none;
-        }
-
-    div.heart:hover{
-        background-color: red;
     }
-    }
-
+}
 
 footer{
     .nav-footer-bg{
