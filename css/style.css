@@ -7,10 +7,7 @@
 :root{
     --header-bg-nav: #ff6900;
     --price-color: #ff0107;
-}
-
-.debug{
-    border: 1px dashed black;
+    --sosten-color: #1d922e;
 }
 
 .container{
@@ -30,6 +27,23 @@
     text-decoration: line-through;
 }
 
+.discount, .sosten{
+    padding: 5px 8px;
+    color: white;
+    position: relative;
+}
+
+.discount{
+    background-color: var(--price-color);
+    left: 0;
+    bottom: 120px;
+}
+
+.sosten{
+    background-color: var(--sosten-color);
+    left: 3px;
+    bottom: 120px;
+}
 
 header{
     
